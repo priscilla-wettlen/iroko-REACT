@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Container>
+  <Navbar expand="lg" variant="light" bg="light">
+    <Container>
+      <Navbar.Brand href="#">Navbar</Navbar.Brand>
+    </Container>
+  </Navbar>
+</Container>,
   document.getElementById('root')
 );
 
