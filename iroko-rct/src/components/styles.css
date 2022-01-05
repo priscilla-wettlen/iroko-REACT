@@ -1,0 +1,11 @@
+h1 {
+    display: flex;
+    justify-content:center ;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
