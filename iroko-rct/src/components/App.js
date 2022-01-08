@@ -55,10 +55,8 @@ function App() {
         <h4>{label}</h4>
         </div>
         <div>
-        <button>Subscribe to our newsletter</button>
-        <Modal>
-          Hej
-        </Modal>
+
+        <Modal />
         
     </div>
     </div>

@@ -9,3 +9,37 @@ h1 {
     align-items: center;
 }
 
+.Subscribe {
+  position: relative;
+  left:500px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width:25%;
+  padding:7px;
+  border: 0px;
+  border-radius: 5px;
+}
+.Subscribe:hover {
+    background-color: rgb(245, 243, 243);
+}
+
+
+.submit {
+  background-color: #ffa07a;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border:0px;
+  border-radius: 5px;
+}
+.submit:hover {
+  background-color: rgb(254, 193, 169);
+}
+#email {
+  width: 350px;
+}
+#email:focus{
+  outline-color: lightsalmon;
+}
